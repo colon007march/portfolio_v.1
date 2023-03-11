@@ -1,5 +1,6 @@
 export default class Animations {
-  static animation = new Animations();
+  /* SINGLETON CLASS INSTANCE */
+  static animations = new Animations();
 
   fadeInScreen = (screen_name) => {
     let screen = document.getElementById(screen_name);
